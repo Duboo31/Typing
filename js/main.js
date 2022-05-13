@@ -91,5 +91,5 @@ button.addEventListener("click", run)
 
 function buttonChange(text) {
     button.innerText = text;
-    text === "PLAY" ? button.classList.remove("loading") : button.classList.add("loading"); 
+    text === "PLAY" ? button.classList.remove("loading") : button.classList.add("loading");
 }
